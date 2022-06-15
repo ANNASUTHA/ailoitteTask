@@ -1,4 +1,3 @@
-import 'package:ailoitte/view/response_page.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
@@ -46,12 +45,5 @@ class _HomePageState extends State<HomePage> {
 
 
 }
-  Widget _requestResponseData(){
-    return ElevatedButton(onPressed: (){
-      _requestData();
-      /*Future.delayed(const Duration(seconds: 8));
-      Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => const ResponsePage()));*/
-    }, child: const Text("Click Here!"));
-  }
+
 }
